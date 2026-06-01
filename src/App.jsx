@@ -12,7 +12,7 @@ function App() {
     <div style={{ width: "100%", overflowX: "hidden" }}>
       <div id="canvas-pin" style={{ width: "100%", height: "100dvh" }}>
         <Canvas
-          camera={{ position: [0, 0, 5], fov: 75 }}
+          camera={{ position: [0, 0, 5], fov: 55 }}
           style={{ width: "100%", height: "100%", display: "block" }}
           gl={{ antialias: true, alpha: true }}
         >
